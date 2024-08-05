@@ -1,0 +1,51 @@
+<html>
+	<head>
+	
+		<title> CSS   </title>
+		
+		<style>
+		
+		#s-one{
+			background-color:red;
+			width:100px;
+			height:100px;
+		}
+		
+		#s-two{
+			background-color:green;
+			width:100px;
+			height:100px;
+		}
+		
+		#s-three{
+			background-color:blue;
+			width:100px;
+			height:100px;
+		}
+		
+		.select{
+			width:100px;
+			height:100px;
+			margin:40px;
+			float:left;
+			border-left:4px black solid;
+			border-top:10px black dotted;
+			
+				
+		}
+		</style>
+		
+	</head>
+	
+	
+	<body>
+	
+		<div id="s-one" class="select"> </div>
+		<div id="s-two" class="select"> </div>
+		<div id="s-three" class="select"> </div>
+		
+	</body>	
+	
+
+
+</html>

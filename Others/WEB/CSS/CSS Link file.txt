@@ -1,0 +1,27 @@
+p{	
+			font-size:120%;
+			font-family:'Dancing Script', cursive;
+			margin:20px;
+	
+		}
+		
+		.right{
+			text-align:right;
+		}
+		
+		div{
+			width:400px;
+			margin:50px;
+			padding:20px;
+			background-color:green;
+		}
+		
+		.center{
+			tex-align:center;
+			font-family:'Dancing Script', cursive;
+			margin:20px;
+		}
+		
+		.jt{
+			text-align:justify;
+		}

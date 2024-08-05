@@ -1,0 +1,26 @@
+<html>
+	<head>
+	
+		<title> Clasess & id  </title>
+		
+		<style>
+		
+		
+		
+		
+		</style>
+		
+	</head>
+	
+	
+	<body>
+	
+		<h1> Tharindu Madushanka</h1>
+		<p> moda pakaya </p>
+		<p> wal balla </p>
+		
+	</body>	
+	
+
+
+</html>

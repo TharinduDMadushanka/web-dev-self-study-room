@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Sales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+
+        .car {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 1em;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .car:hover {
+            transform: scale(1.05);
+        }
+
+        .car img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .car-info {
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Sales</h1>
+    </header>
+
+    <section>
+        <div class="car">
+            <img src="car1.jpg" alt="Car 1">
+            <div class="car-info">
+                <h2>Model A</h2>
+                <p>Year: 2022</p>
+                <p>Price: $30,000</p>
+            </div>
+        </div>
+
+        <div class="car">
+            <img src="car2.jpg" alt="Car 2">
+            <div class="car-info">
+                <h2>Model B</h2>
+                <p>Year: 2021</p>
+                <p>Price: $25,000</p>
+            </div>
+        </div>
+
+        <!-- Add more cars as needed -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Car Sales</p>
+    </footer>
+</body>
+</html>

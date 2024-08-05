@@ -1,0 +1,48 @@
+<html>
+	<head>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+		<title> CSS   </title>
+		
+		<style>
+		
+		p{ font-size:200%;
+			font-family:'Dancing Script', cursive;
+	
+		}
+		
+		.bold{
+			font-weight:bold;
+		}
+		
+		a{
+			text-decoration:none;
+			color:green;
+		}
+		
+		a:hover{
+			text-decoration:underline;
+			color:blue;
+		}
+		
+		a.visited{
+			color:red;
+		}
+
+		</style>
+		
+	</head>
+	
+	
+	<body>
+	
+		<p class="bold">This is a testing paragraph</p>
+		<p> <a href="https://fonts.google.com/" target="blank"> Google font style </p>
+	
+	
+	</body>	
+	
+
+
+</html>

@@ -1,0 +1,27 @@
+<html>
+	<head>
+	
+		<title> CSS   </title>
+		
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" type="text/css" href="CSS Link file.css">
+		
+		
+		
+		
+	</head>
+	
+	
+	<body>
+		<div>
+		<p class="right"> Date ......./....../........</p>
+		<h2 class="center"> Moda balla </h2>
+		<p class="jt"> Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private, to manifest his religion or belief in teaching, practice, worship and observance. Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. </p>
+		</div>
+	
+	
+	</body>	
+	
+
+
+</html>

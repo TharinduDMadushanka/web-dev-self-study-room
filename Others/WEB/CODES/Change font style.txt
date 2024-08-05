@@ -1,0 +1,28 @@
+<html>
+	<head>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+		<title> CSS   </title>
+		
+		<style>
+		
+		p{ font-size:200%;
+			font-family:'Dancing Script', cursive;
+	
+		}
+
+		</style>
+		
+	</head>
+	
+	
+	<body>
+	
+		<p>This is a testing paragraph</p>
+	
+	</body>	
+	
+
+
+</html>
