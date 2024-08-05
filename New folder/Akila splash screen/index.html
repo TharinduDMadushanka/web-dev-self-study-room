@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen</title>
+    <style>
+        body {
+            background-image: url(pexels-belle-co-847393.jpg);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            background-size: cover ;
+        }
+        #splash {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        #splash.show {
+            opacity: 1;
+        }
+        #splash h1, #splash ol {
+            opacity: 0;
+            transition: opacity 1s ease-in-out 0.5s;
+        }
+        #splash.show h1, #splash.show ol {
+            opacity: 1;
+        }
+        #splash img {
+            width: 20%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out 1s;
+        }
+        #splash.show img {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="splash">
+        <h1>Our Group Members</h1>
+        <ol>
+            <li>Student 1 - Akila Sanjaya</li>
+            <li>Student 2 - Tharindu Madushanka</li>
+            <li>Student 3 - Rashmina Fernando</li>
+            <li>Student 4 - Adishka Nimsara</li>
+        </ol>
+        <img src="03-19-26-213_512.gif" alt="Loading...">
+    </div>
+
+    <script>
+        // Add the 'show' class to trigger the CSS transitions
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('splash').classList.add('show');
+        });
+
+        // Function to redirect to the homepage after 5 seconds
+        setTimeout(function() {
+            window.location.href = "home.html";
+        }, 5000);
+    </script>
+</body>
+</html>
