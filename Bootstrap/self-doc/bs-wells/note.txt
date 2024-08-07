@@ -1,0 +1,5 @@
+~Bootstrap Wells~
+
+- '.well' class adds a rounded border around an element with a gray background color and some padding
+- small wells -> '.well-sm'
+- large wells -> '.well-lg'
