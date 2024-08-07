@@ -1,0 +1,20 @@
+~Bootstrap 5 Pagination~
+
+- Basic Pagination
+    - If you have a web site with lots of pages, you may wish to add some sort of pagination to each page.
+    -  create a basic pagination, add the .pagination class to an <ul> elemen
+    -  Then add the .page-item to each <li> element 
+    -  and a .page-link class to each link inside <li>
+
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    </ul>
+
+- Active State
+    - The '.active' class is used to "highlight" the current page:
+    - <li class="page-item active"><a class="page-link" href="#">2</a></li>
+
+- Disabled State
+    - The '.disabled' class is used for un-clickable links
+    - <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+    
