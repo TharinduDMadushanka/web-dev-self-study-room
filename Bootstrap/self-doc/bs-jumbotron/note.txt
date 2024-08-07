@@ -1,0 +1,10 @@
+~Bootstrap Jumbotron and Page Header~
+
+- Creating a Jumbotron
+    - a big box for calling extra attention to some special content or information.
+    - displayed as a grey box with rounded corners.
+    - also enlarges the font sizes of the text inside it.
+    - Use a <div> element with class .jumbotron to create a jumbotron
+
+- jumbotron component is not available in Bootstrap 5
+-jumbotron class has been replaced by utility classes and a more flexible layout using the grid system and spacing utilities
