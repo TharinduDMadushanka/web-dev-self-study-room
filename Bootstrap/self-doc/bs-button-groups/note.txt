@@ -1,0 +1,20 @@
+~Button Groups~
+
+- group a series of buttons together (on a single line) in a button group
+- Use <div class="btn-group"> with buttons
+- Instead of applying button sizes to every button in a group, use class .btn-group-lg for a large button group or the .btn-group-sm for a small button group
+
+- Vertical Button Groups
+    - <div class="btn-group-vertical">
+
+- Button Groups Side by Side
+    - Button groups are "inline" by default, which makes them appear side by side when you have multiple groups
+
+- Nesting Button Groups & Dropdown Menus
+    - Use,  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"> for the drop down button
+    - and create drop down list like this
+    
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Tablet</a>
+      <a class="dropdown-item" href="#">Smartphone</a>
+    </div>
