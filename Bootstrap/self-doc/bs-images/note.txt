@@ -1,0 +1,17 @@
+~ Bootstrap Images ~
+
+- Rounded Corners
+    - .img-rounded
+- Circle
+    - .img-circle
+- Thumbnail
+    - .img-thumbnail
+- Responsive Images
+    - adding an .img-responsive class to the <img> tag
+    -  The image will then scale nicely to the parent element.
+    - .img-responsive class applies display: block; and max-width: 100%; and height: auto; to the image
+
+- Image Gallery
+    - use Bootstrap's grid system in conjunction with the .thumbnail class to create an image gallery.
+- Aligning images
+    - Align images with the helper float classes or text alignment classes

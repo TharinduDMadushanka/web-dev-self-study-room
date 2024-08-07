@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Images</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Rounded Corners</h2>
+      <p>
+        The '.rounded' class adds rounded corners to an image (not available in
+        IE8):
+      </p>
+      <img
+        src="assets/img1.jpg"
+        class="rounded"
+        alt="Cinque Terre"
+        width="304"
+        height="236"
+      />
+    </div>
+    <hr />
+
+    <div class="container">
+      <h2>Circle</h2>
+      <p>
+        The '.rounded-circle' class shapes the image to a circle (not available
+        in IE8):
+      </p>
+      <img
+        src="assets/img1.jpg"
+        class="rounded-circle"
+        alt="Cinque Terre"
+        width="304"
+        height="236"
+      />
+    </div>
+    <hr />
+
+    <div class="container">
+      <h2>Thumbnail</h2>
+      <p>The '.img-thumbnail' class creates a thumbnail of the image:</p>
+      <img
+        src="assets/img1.jpg"
+        class="img-thumbnail"
+        alt="Cinque Terre"
+        width="304"
+        height="236"
+      />
+    </div>
+    <hr />
+
+    <div class="container">
+      <h2>Responsive Image</h2>
+      <p>
+        The 'img-fluid' class makes the image scale nicely to the parent element
+        (resize the browser window to see the effect):
+      </p>
+      <img src="assets/img1.jpg" class="img-fluid" alt="Cinque Terre" />
+    </div>
+    <hr />
+
+    <div class="container">
+      <h2>Image Gallery</h2>
+      <p>The .thumbnail class can be used to display an image gallery.</p>
+      <p>
+        The .caption class adds proper padding and a dark grey color to text
+        inside thumbnails.
+      </p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="assets/fjords.jpg" alt="" style="width: 100%" />
+            <div class="caption">
+              <p>
+                Lorem ipsum donec id elit non mi porta gravida at eget metus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="assets/img1.jpg" alt="" style="width: 100%" />
+            <div class="caption">
+              <p>
+                Lorem ipsum donec id elit non mi porta gravida at eget metus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="assets/lights.jpg" alt="" style="width: 100%" />
+            <div class="">
+              <p>
+                Lorem ipsum donec id elit non mi porta gravida at eget metus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1>Aligning images</h1>
+
+    <!-- Right Align -->
+    <div class="container">
+      <img
+        src="assets/fjords.jpg"
+        class="rounded float-end"
+        alt=""
+        style="width: 300px; height: 200px"
+      />
+    </div>
+
+    <!-- Left Align -->
+    <div class="container">
+      <img
+        src="assets/fjords.jpg"
+        class="rounded float-none"
+        alt=""
+        style="width: 300px; height: 200px"
+      />
+    </div>
+    <hr />
+
+    <!-- Center Align -->
+    <div class="container">
+      <img
+        src="assets/fjords.jpg"
+        class="rounded mx-auto d-block"
+        alt=""
+        style="width: 300px; height: 200px"
+      />
+    </div>
+    <hr />
+
+    <!-- Center Align -->
+    <div class="text-center">
+      <img
+        src="assets/fjords.jpg"
+        class="rounded"
+        alt=""
+        style="width: 300px; height: 200px"
+      />
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
