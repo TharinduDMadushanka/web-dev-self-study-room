@@ -1,0 +1,18 @@
+~Bootstrap 5 Badges~
+
+- Use the '.badge' class together with a contextual class (like .bg-secondary) within <span> elements to create rectangular badges.
+- <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+
+- Contextual Badges
+ - Use any of the contextual classes (.bg-*) to change the color of a badge:
+ - <span class="badge bg-primary">Primary</span>
+
+- Pill Badges
+    - Use the .rounded-pill class to make the badges more round
+    - <span class="badge rounded-pill bg-primary">Primary</span>
+
+- Badge inside an Element
+    - add badge class insde a badge class with span
+    - <button type="button" class="btn btn-primary">
+        Messages <span class="badge bg-danger">4</span>
+      </button>

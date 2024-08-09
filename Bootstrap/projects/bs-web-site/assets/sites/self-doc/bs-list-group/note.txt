@@ -1,0 +1,43 @@
+~Bootstrap 5 List Groups~
+
+- Basic List Groups
+    -  use an <ul> element with class '.list-group'
+    -  and <li> elements with class '.list-group-item'
+
+    <ul class="list-group">
+        <li class="list-group-item">First item</li>
+    </ul>
+
+- Active State
+    - Use the '.active' class to highlight the current item
+
+    <li class="list-group-item active">Active item</li>
+
+- List Group With Linked Items
+    - use <div> instead of <ul>
+    - <a> instead of <li>
+    - add the '.list-group-item-action' class if you want a grey background color on hover
+
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">First item</a>
+    </div>
+
+- Disabled Item
+    - <a href="#" class="list-group-item disabled">Disabled item</a>
+
+- Flush / Remove Borders
+    - Use the '.list-group-flush' class to remove some borders and rounded corners:
+
+- Numbered List Groups
+    - Use the .list-group-numbered class to create list items with numbers in front of them
+
+- Horizontal List Groups
+    - <ul class="list-group list-group-horizontal">
+
+- Contextual Classes
+    - <ul class="list-group">
+        <li class="list-group-item list-group-item-success">Success item</li>
+      </ul>
+
+- List Group with Badges
+    - Combine .badge classes with utility/helper classes to add badges inside the list group

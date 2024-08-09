@@ -1,0 +1,28 @@
+~ Bootstrap Text/Typography ~
+
+- Bootstrap's Default Settings
+    - font-size is 14px, with a line-height of 1.428.
+    - This is applied to the <body> element and all paragraphs (<p>).
+
+- <h1> - <h6>
+    - By default, Bootstrap will style the HTML headings (<h1> to <h6>) 
+
+- <small>
+    - In Bootstrap the HTML <small> element is used to create a lighter, secondary text in any heading
+
+- <mark>
+    - Use the mark element to highlight text.
+
+- <abbr>
+    - use to dottetd underline
+
+- <blockquote>
+    - use to write blockquote
+
+- Contextual Colors and Backgrounds
+    - .text-muted 
+    - .text-primary 
+    - .text-success 
+    - .text-info 
+    - .text-warning 
+    - .text-danger

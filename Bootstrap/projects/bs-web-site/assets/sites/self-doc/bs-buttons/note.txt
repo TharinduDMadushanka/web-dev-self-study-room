@@ -1,0 +1,43 @@
+~Bootstrap 5 Buttons~
+
+- Bootstrap  provides different styles of buttons
+- first createa button then add these classes
+    - class="btn"
+    - class="btn btn-primary"
+    - class="btn btn-secondary"
+    - class="btn btn-success"
+    - class="btn btn-info
+    - class="btn btn-warning"
+    - class="btn btn-danger"
+    - class="btn btn-dark"
+    - class="btn btn-light"
+    - class="btn btn-link"
+
+- The button classes can be used on <a>, <button>, or <input> elements
+    - Link -> <a href="#" class="btn btn-success">Link Button</a>
+    - button -> <button type="button" class="btn btn-success">Button</button>
+    - input -> <input type="button" class="btn btn-success" value="Input Button">
+
+- Button Outline
+    - Bootstrap 5 also provides eight outline/bordered buttons.
+    - Move the mouse over them to see an additional "hover" effect
+    - add, class="btn btn-outline-primary"
+
+- Button Sizes
+    - large buttons -> '.btn-lg'
+    - small buttons -> '.btn-sm'
+    - class="btn btn-primary btn-lg"
+
+- Block Level Buttons
+    - spans the entire width of the parent element
+    - use the '.d-grid' "helper" class on the parent element
+    - class="btn btn-primary btn-block"
+    - have many block-level buttons, you can control the space between them with the '.gap-3'
+
+- Active/Disabled Buttons
+    - '.active' makes a button appear pressed
+    - 'disabled 'attribute makes a button unclickable
+    - <a> elements do not support the disabled attribute,  use the '.disabled' class to make it visually appear disabled
+    
+- Spinner Buttons
+    - create button and the add [ <span class="spinner-border spinner-border-sm"></span> ]

@@ -1,0 +1,24 @@
+- Add animation
+    - Use the .fade class to add a fading effect when opening and closing the modal:
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+
+- Modal Size
+    - Add the size class to the <div> element with class .modal-dialog:
+    - Small Modal
+      <div class="modal-dialog modal-sm">
+
+    - Large Modal
+      <div class="modal-dialog modal-lg">
+
+    - Extra Large Modal
+      <div class="modal-dialog modal-xl">
+
+- Fullscreen Modals
+    - If you want the modal to span the whole width and height of the page, use the .modal-fullscreen class:
+    - <div class="modal-dialog modal-fullscreen">
+
+- Centered Modal
+    - Center the modal vertically and horizontally within the page, with the .modal-dialog-centered class:
+    - <div class="modal-dialog modal-dialog-centered">

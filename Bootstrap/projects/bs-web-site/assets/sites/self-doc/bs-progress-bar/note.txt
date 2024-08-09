@@ -1,0 +1,25 @@
+~Bootstrap 5 Progress Bars~
+
+- Basic Progress Bar
+    - To create a default progress bar, add a .progress class to a container element
+    - add the .progress-bar class to its child element
+    - Use the CSS width property to set the width of the progress bar
+
+    <div class="progress">
+        <div class="progress-bar" style="width:70%"></div>
+    </div>
+
+- Progress Bar Height
+    - The height of the progress bar is 1rem (usually 16px) by default. Use the CSS height property to change it
+    - <div class="progress" style="height:20px">
+
+- Progress Bar Labels
+    - Add text inside the progress bar to show the visible percentage
+
+      <div class="progress">
+        <div class="progress-bar" style="width:70%">70%</div>
+      </div>
+
+- Striped Progress Bars
+    - Use the .progress-bar-striped class to add stripes to the progress bars:
+    - <div class="progress-bar progress-bar-striped" style="width:40%"></div>

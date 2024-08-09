@@ -1,0 +1,4 @@
+~ Bootstrap Tables ~
+
+- Bootstrap Basic Table
+    - A basic Bootstrap table has a light padding and only horizontal dividers.

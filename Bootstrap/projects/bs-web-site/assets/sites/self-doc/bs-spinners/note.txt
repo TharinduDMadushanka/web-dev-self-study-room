@@ -1,0 +1,16 @@
+~Spinners~
+
+- To create a spinner/loader, use the '.spinner-border' class
+- <div class="spinner-border"></div>
+
+- Colored Spinners
+    - Use any text color utilites to add a color to the spinner
+    - <div class="spinner-border text-muted"></div>
+
+- Growing Spinners
+    - Use the .spinner-grow class if you want the spinner/loader to grow instead of "spin"
+    - <div class="spinner-grow text-muted"></div>
+
+- Spinner Size
+    - Use .spinner-border-sm or .spinner-grow-sm to create a smaller spinner:
+    

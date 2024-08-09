@@ -1,0 +1,22 @@
+~Bootstrap 5 Alerts~
+
+- Alerts are created with the '.alert' class
+    - .alert-success 
+    - .alert-info 
+    - .alert-warning 
+    - .alert-danger 
+    - .alert-primary 
+    - .alert-secondary 
+    - .alert-light 
+    - .alert-dark
+
+- Alert Links
+    - first create alert box the add <a> tag with hyper link
+    - Add the '.alert-link' class to any links inside the alert box
+
+- Closing Alerts
+    - first create alert box then add for that class '.alert-dismissible'
+    - then create button with class [ class="btn-close" and data-bs-dismiss="alert" ]
+    - when you click on this the alert box will disappear (data-bs-dismiss="alert")
+    -  to add animation for close alert add 'fade show' in to alert box class
+    - <div class="alert alert-info alert-dismissible fade show"></div>
