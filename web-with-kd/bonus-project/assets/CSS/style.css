@@ -1,0 +1,166 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    padding: 20px; /* Add 20px padding */
+    background: linear-gradient(90deg, black, red); /* Black to red gradient */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add box shadow */
+}
+
+/* Style the logo */
+.logo h1 {
+    font-size: 24px;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Add hover animation */
+.nav-links a:hover {
+    color: #ff6b6b; /* Example hover color */
+}
+
+/* Style the hero section */
+.hero {
+    height: 100vh;
+    background-image: url('../img/bg-hero2.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0 20px;
+}
+
+/* Add transparency overlay */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+    z-index: 1;
+}
+
+/* Style the hero content */
+.hero-content {
+    position: relative;
+    z-index: 2; /* Ensure content is above the overlay */
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+/* Style the two columns section */
+.two-columns {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.right-column h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.right-column p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Style the cards section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    gap: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.card {
+    flex: 1;
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
