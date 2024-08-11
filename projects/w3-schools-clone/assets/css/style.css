@@ -53,3 +53,32 @@ input::placeholder {
 .nav-prof:hover{
     opacity: 0.5;
 }
+
+/* hero section */
+
+#hero {
+    background-image: url('../img/main-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust this to your desired height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 4rem; /* Adjust font size as needed */
+    z-index: 1; /* Ensure it appears above the background */
+    margin-top: -200px;
+    font-weight: bold;
+
+}
+
+.hero-input{
+    max-width: 500px;
+    margin-left: 500px;
+    border-radius: 60px;
+}
