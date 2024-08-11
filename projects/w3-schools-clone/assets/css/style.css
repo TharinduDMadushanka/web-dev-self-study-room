@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.test{
+    padding-top: 5px;
+}
+
+.navbar{
+    background-color: #202741;
+    max-height: 55px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-seacrh{
+    margin-right: 200px;
+}
+
+.input{
+    border-radius: 60px;
+}
+
+/* italic placeholder text */
+input::placeholder {
+    font-style: italic;
+}
+
+.btn:hover {
+    background-color: rgb(75, 180, 75);
+  }
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-right{ 
+    padding-left: 100px;
+}
+
+.btn-right:hover{
+    background-color: rgba(194, 194, 194, 0.3);
+    /* opacity: 0.5; */
+}
+
+.nav-prof{
+    border-radius: 60px;
+}
+
+.nav-prof:hover{
+    opacity: 0.5;
+}
