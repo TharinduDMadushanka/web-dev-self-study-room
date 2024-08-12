@@ -141,3 +141,54 @@ input::placeholder {
     margin-top: 100px;
     font-weight: bold;
 }
+
+#js-sec{
+    height: 650px;
+    background-color: #0a0c22;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.js-title{
+    font-size: 4rem;
+    z-index: 1;
+    margin-top: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+#python-sec{
+    height: 550px;
+    background-color: #feebf4;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.python-title{
+    font-size: 4rem;
+    z-index: 1;
+    margin-top: 100px;
+    font-weight: bold;
+    color: black;
+}
+
+#sql-sec{
+    height: 550px;
+    background-color: #4cb5a0;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.sql-title{
+    font-size: 4rem;
+    z-index: 1;
+    margin-top: 100px;
+    font-weight: bold;
+    color: black;
+}
