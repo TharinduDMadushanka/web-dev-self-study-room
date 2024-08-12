@@ -85,7 +85,7 @@ input::placeholder {
 
 /* css section  */
 
-#css-sec{
+#html-sec{
     height: 500px;
     background-color: #f1f6ff;
     background-position: center;
@@ -94,7 +94,7 @@ input::placeholder {
     text-align: center;
 }
 
-.css-title{
+.html-title{
     font-size: 6rem;
     z-index: 1;
     margin-top: 100px;
@@ -124,4 +124,20 @@ input::placeholder {
 .btn-html-footer:hover{
     background-color: rgb(84, 172, 84);
     color: white;
+}
+
+#css-sec{
+    height: 650px;
+    background-color: #ebdf94;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.css-title{
+    font-size: 6rem;
+    z-index: 1;
+    margin-top: 100px;
+    font-weight: bold;
 }
