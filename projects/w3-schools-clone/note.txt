@@ -1,0 +1,6 @@
+- display: flex; -> if we wan to align content this should be include & then,
+    - background-position: center;
+    - justify-content: center;
+    - align-items: center;
+    - display: flex;
+    - text-align: center;

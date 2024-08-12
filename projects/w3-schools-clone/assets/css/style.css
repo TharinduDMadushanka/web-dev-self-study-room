@@ -29,7 +29,7 @@ input::placeholder {
     font-style: italic;
 }
 
-.btn:hover {
+.nav-btn:hover {
     background-color: rgb(75, 180, 75);
   }
 
@@ -81,4 +81,47 @@ input::placeholder {
     max-width: 500px;
     margin-left: 500px;
     border-radius: 60px;
+}
+
+/* css section  */
+
+#css-sec{
+    height: 500px;
+    background-color: #f1f6ff;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.css-title{
+    font-size: 6rem;
+    z-index: 1;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.btn-html{
+    border-radius: 60px;
+    font-weight: bold;
+}
+
+.btn-html:hover {
+    filter: brightness(85%); /* Darkens the color by 15% */
+}
+
+.html-card{
+    margin-top: 100px;
+}
+
+.btn-html-footer{
+    background-color: rgb(88, 212, 88);
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.btn-html-footer:hover{
+    background-color: rgb(84, 172, 84);
+    color: white;
 }
