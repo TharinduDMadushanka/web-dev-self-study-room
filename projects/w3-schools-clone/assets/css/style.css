@@ -83,7 +83,7 @@ input::placeholder {
     border-radius: 60px;
 }
 
-/* css section  */
+/* html section  */
 
 #html-sec{
     height: 500px;
@@ -126,6 +126,8 @@ input::placeholder {
     color: white;
 }
 
+/* css section  */
+
 #css-sec{
     height: 650px;
     background-color: #ebdf94;
@@ -141,6 +143,8 @@ input::placeholder {
     margin-top: 100px;
     font-weight: bold;
 }
+
+/* js section  */
 
 #js-sec{
     height: 650px;
@@ -159,6 +163,8 @@ input::placeholder {
     color: white;
 }
 
+/* python section  */
+
 #python-sec{
     height: 550px;
     background-color: #feebf4;
@@ -176,6 +182,8 @@ input::placeholder {
     color: black;
 }
 
+/* sql section  */
+
 #sql-sec{
     height: 550px;
     background-color: #4cb5a0;
@@ -191,4 +199,33 @@ input::placeholder {
     margin-top: 100px;
     font-weight: bold;
     color: black;
+}
+
+/* two card section  */
+
+#two-card{
+    height: 1100px;
+    background-color: #0a0c22;
+}
+
+.card-controll{
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+.two-card-body{
+    margin-top: 75px;
+}
+
+.two-card-btn{
+    border-radius: 50px;
+    background-color: #1e203c;
+    color: white;
+    font-weight: bold;
+}
+
+.two-card-btn:hover{
+    background-color: #04040c;
+    color: white;
 }
