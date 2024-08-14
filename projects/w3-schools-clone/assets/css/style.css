@@ -204,7 +204,7 @@ input::placeholder {
 /* two card section  */
 
 #two-card{
-    height: 1500px;
+    height: 3500px;
     background-color: #0a0c22;
 }
 
@@ -241,6 +241,19 @@ input::placeholder {
 }
 
 .two-btn:hover{
+    filter: brightness(85%);
+    color: black;
+}
+
+.four-btn{
+    height: 125px;
+    width: 650px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.four-btn:hover{
     filter: brightness(85%);
     color: black;
 }
