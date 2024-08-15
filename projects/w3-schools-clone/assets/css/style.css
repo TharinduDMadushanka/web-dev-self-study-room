@@ -257,3 +257,25 @@ input::placeholder {
     filter: brightness(85%);
     color: black;
 }
+
+/* code editor section  */
+
+#code-editor{
+    height: 700px;
+    background-color: #0a0c22;
+}
+
+.editor-title{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.code-ed-img{
+    height: 425px;
+}
+
+.code-ed-btn{
+    margin-left: 163px;
+    text-align: left;
+}
