@@ -10,6 +10,10 @@ body{
     color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* ================ hero ================== */
 
 #header{
@@ -371,8 +375,9 @@ form .btn2{
     color: #ff004f;
 }
 
-nav .fa-solid{
+nav .fa-solid{ /* hide menu& close icons when in full screen */
     display: none;
+    cursor: pointer;
 }
 
 /* Media Query for mobile devices */
