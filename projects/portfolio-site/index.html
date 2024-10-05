@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--  hero section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Kevin</span> <br> Jen Fom Australia</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- about section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, enim dignissimos, itaque rem nam repudiandae aliquid provident eum voluptas, corrupti repellat ullam nihil placeat. Quos, temporibus. Blanditiis, ea. Quam, ipsa.</p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <!-- skills -->
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Application Development</li>
+                        </ul>
+                    </div>
+
+                    <!-- experience -->
+                    <div id="experience" class="tab-contents">
+                        <ul>
+                            <li><span>2021 - current</span><br>Designing Web/App interfaces</li>
+                            <li><span>2019 - 2021</span><br>Web app Development</li>
+                            <li><span>2017 - 2019</span><br>Application Development</li>
+                            <li><span>2017 - 2018</span><br>Internship period</li>
+                        </ul>
+                    </div>
+
+                    <!-- education -->
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>2016</span><br>Designing School</li>
+                            <li><span>2017</span><br>BSc in UK</li>
+                            <li><span>2021</span><br>PhD in UK</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services section -->
+
+    <script src="main.js"></script>
+</body>
+</html>
