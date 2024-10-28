@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+
+    <style>
+
+        *{
+            padding: 10px 30px;
+            background-color: hsla(180, 26%, 69%, 0.719);
+            border: 1px solid black;
+        }
+
+        p{ /* <p> elements */
+            text-align: center;
+            color: red;
+        }
+
+        #para{
+            color: blue;
+        }
+
+        .para{
+            color: green;
+        }
+
+        div p{
+            font-size: 25px;
+            color: blueviolet;
+        }
+
+        div .para{
+            font-size: 30px;
+            color: cadetblue;
+        }
+    </style>
+
+</head>
+<body>
+
+    
+        <p>Paragraph elemnt</p>
+        <p id="para">Paragraph elemnt with id attribute</p>
+        <p class="para">Paragraph elemnt with class attribute</p>
+    
+        <div>
+            <p>Paragraph in side the div tag</p>
+        </div>
+
+        <div>
+            <p class="para">Paragraph in side the div tag wth class</p>
+        </div>
+
+    
+</body>
+</html>
