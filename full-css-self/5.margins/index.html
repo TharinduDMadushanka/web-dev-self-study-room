@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margins</title>
+
+    <style>
+
+/* individual margin properties */
+        .one{
+
+            border: 1px solid black;
+            max-width: 80px;
+            text-align: center;
+            background-color: lightblue;
+
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+        }
+
+        /* margin shorthand property - 4 values */
+        .two{
+
+            border: 1px solid black;
+            max-width: 80px;
+            text-align: center;
+            background-color: lightblue;
+
+            margin: 25px 50px 75px 100px;
+        }
+
+        /* inherit Value */
+
+        div {
+            border: 1px solid red;
+            margin-left: 100px;
+        }
+
+        p.ex1 {
+             margin-left: inherit;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    
+    <!-- individual margin properties -->
+
+    <h2>Using individual margin properties</h2>
+    <p class="one">Hello</p><hr>
+
+    <!-- margin shorthand property - 4 values -->
+
+    <h2>The margin shorthand property - 4 values</h2>
+    <p class="two">Hello</p>
+    <div>This div element has a top margin of 25px, a right margin of 50px, a bottom margin of 75px, and a left margin of 100px.</div>
+    <hr>
+
+    ~ You can set the margin property to auto to horizontally center the element within its container <hr>
+
+    <!-- inherit Value -->
+
+    <h2>Use of the inherit value</h2>
+    <p>Let the left margin be inherited from the parent element:</p>
+
+    <div>
+        <p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+    </div>
+
+
+</body>
+</html>
